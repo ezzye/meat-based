@@ -3,6 +3,7 @@ Short meat-based task (PHP, Javascript, Ruby)
 
 example PHP array:
 
+```
 $foods = array(
 
   'meat' => array('burgers', 'steak', 'sausages', 'kebabs'),
@@ -10,6 +11,7 @@ $foods = array(
   'cake' => array('victorian', 'chocolate', 'fruit', 'fudge'),
 
 );
+```
 
 Create a function that takes an array of this kind as an argument, and then return an array of just the meat values, in reverse alphabetical order.
 
@@ -33,18 +35,22 @@ Use meat key to get meat array then remove the kebab item and output resulting a
 
 The foods array would be written as follows in JavaScript as a object:
 
+```
 var foods = {
   meat: ['burgers', 'steak', 'sausages', 'kebabs'],
   cake: ['victorian', 'chocolate', 'fruit', 'fudge']
 };
+```
 
 ## Ruby
 
 The food array would be written as follows in Ruby as a hash:
 
+```
 foods = {
   meat: ['burgers', 'steak', 'sausages', 'kebabs'],
   cake: ['victorian', 'chocolate', 'fruit', 'fudge']
 }
+```
 
 
