@@ -25,8 +25,26 @@ Make sure your file can be executed from the command line: php meats.php
 
 Approach:
 
+##PHP
+
+Use meat key to get meat array then remove the kebab item and output resulting array.
+
 ## Javascript
 
+The foods array would be written as follows in JavaScript as a object:
 
+var foods = {
+  meat: ['burgers', 'steak', 'sausages', 'kebabs'],
+  cake: ['victorian', 'chocolate', 'fruit', 'fudge']
+};
+
+## Ruby
+
+The food array would be written as follows in Ruby as a hash:
+
+foods = {
+  meat: ['burgers', 'steak', 'sausages', 'kebabs'],
+  cake: ['victorian', 'chocolate', 'fruit', 'fudge']
+}
 
 
